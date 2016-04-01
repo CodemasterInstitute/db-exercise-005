@@ -156,7 +156,8 @@ function main() {
         }
     }
     
-    myCar.addWheel({ })
+    myCar.addWheel({ diameter: 32, treadWidth: 100, brand: 'Bridgestone' });
+    myCar.removeWheel();    
     
     
 }
