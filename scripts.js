@@ -29,7 +29,17 @@ function main() {
     // Create and call a function that takes a 'car' object as a parameter and outputs all the wheel brands to the screen
     
     
+    // Exercise #6
+    // For this exercise we want to acheive the same result as in exercise 5 but this time we want to put the function on the 'car' object itself. example function call:
+    // myCar.displayWheelBrands();
         
+    
+    // Exercise #7
+    // Create two methods (function which does not return a value) on the 'car' object. 
+    // The first addWheel(wheel) - which accepts a 'wheel' object paramter and adds it to the cars wheel array
+    // The second removeWheel() - which removes the last wheel in the cars wheel array
+    // Now, add a wheel to the car using the method you created and then remove that wheel
+    // RESOURCES: http://www.w3schools.com/js/js_array_methods.asp (PUSH and POP)
 }
 
 function outputLine(line) {
